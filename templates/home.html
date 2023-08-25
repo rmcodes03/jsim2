@@ -1,0 +1,21 @@
+<h1>Jaccard Similarity</h1>
+
+<form action="{% url 'output' %}">
+    <b>Enter shingles value (k):</b> <input type="number" name="shingle" max="10" min="1">
+    <br><br>
+    <b>Enter first text:</b>
+    <br>
+    <textarea name="wordtext1" cols="50" rows="10"></textarea>
+    <br><br>
+    <b>Enter second text:</b>
+    <br>
+    <textarea name="wordtext2" cols="50" rows="10"></textarea>
+    <br>
+    <br>
+    <input type="submit" name="word" value="Calculate">
+    <br>
+    <br>
+</form>
+
+<br>
+<a href="https://users.cs.utah.edu/~jeffp/teaching/cs5955/L4-Jaccard+Shingle.pdf">About Page</a>
